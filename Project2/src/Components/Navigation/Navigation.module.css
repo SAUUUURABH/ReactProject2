@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+  
+   .navigation ul {
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Space between list items */
+  } 
+  
+  .navigation ul li {
+    cursor: pointer;
+  }
+  .logo img{
+    max-width: 60%;
+    height: auto;
+    width: 150px;
+    object-fit:contain;
+  }
